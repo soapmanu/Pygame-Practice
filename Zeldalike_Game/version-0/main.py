@@ -20,7 +20,7 @@ class Game:
                     pygame.quit()
                     sys.exit()
                     
-            self.screen.fill('black')
+            self.screen.fill('dark green')
             self.level.run()
             #debug('Hello')
             pygame.display.update()
@@ -29,4 +29,3 @@ class Game:
 if __name__ == '__main__':
     game = Game()
     game.run()
-    #26:10
